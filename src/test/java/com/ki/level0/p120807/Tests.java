@@ -19,7 +19,7 @@ public class Tests {
     }
 
     @Test
-    @DisplayName("11,11 => 1")
+    @DisplayName("7,99 => -1")
     void t1() {
         assertThat(new Solution().solution(2, 3)).isEqualTo(-1);
     }
